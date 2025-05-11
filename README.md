@@ -1,13 +1,11 @@
-# Games101 Experiment4
+# Games101 Experiment 4
 
-## 实验内容
+## Experiment Content
 
-- 本次实验较为简单，即为使用递归去实现贝塞尔曲线
-- 主要思路即为，向函数传入一个控制点的数组，之后根据t求出n个控制点的n-1个新的点。之后再将这n-1个新的点传入递归函数中。当数组中只剩下一个点的时候，递归终止。
+- This experiment is relatively simple. The goal is to implement a Bézier curve using recursion.
+- The main idea is to pass an array of control points to the function, then compute `n - 1` new points from the original `n` control points based on the parameter `t`. The new set of points is then passed recursively into the same function. The recursion stops when there is only one point left in the array.
 
+## Experiment Result
 
-
-## 实验结果
-
-- ![image-20250511164354790](C:\Users\i love china\AppData\Roaming\Typora\typora-user-images\image-20250511164354790.png)
-- 可以看到，通过四个控制点，成功地形成了一个贝塞尔曲线。
+- <img src="https://github.com/corgiInequation/Games101_bezierCurve/blob/main/my_bezier_curve.png" alt="bezier-curve" width="66%" />
+- As shown, a Bézier curve is successfully formed using four control points.
