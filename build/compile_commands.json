@@ -1,0 +1,8 @@
+[
+{
+  "directory": "D:/learning_codes/games_work/duty_4/build",
+  "command": "D:\\learning_codes\\mingw64\\bin\\g++.exe  @CMakeFiles/BezierCurve.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\BezierCurve.dir\\main.cpp.obj -c D:\\learning_codes\\games_work\\duty_4\\code\\main.cpp",
+  "file": "D:/learning_codes/games_work/duty_4/code/main.cpp",
+  "output": "CMakeFiles/BezierCurve.dir/main.cpp.obj"
+}
+]
